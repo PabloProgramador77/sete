@@ -22,7 +22,7 @@ class ArchivoController extends Controller
      * Constructor
      */
     public function __construct(){
-        $this->stripe=new \Stripe\StripeClient('sk_test_QcRYqEW8XNkmML3Q0iG19xU5003hKMM2Nc');
+        $this->stripe=new \Stripe\StripeClient('');
     }
 
     /**
